@@ -2,10 +2,16 @@
   "name": "nodejs-helloworld",
   "version": "1.0.0",
   "description": "hola mundo tecsospc",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http": "0.0.1-security"
   },
   "repository": {
     "type": "git",
@@ -16,11 +22,5 @@
   "bugs": {
     "url": "https://github.com/Roinflames/nodejs-helloworld/issues"
   },
-  "homepage": "https://github.com/Roinflames/nodejs-helloworld#readme",
-  "dependencies": {
-    "http": "0.0.1-security"
-  },
-  "engines": {
-    "node": "14.x"
-  }
+  "homepage": "https://github.com/Roinflames/nodejs-helloworld#readme" 
 }
