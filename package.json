@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Roinflames/nodejs-helloworld#readme",
   "dependencies": {
-    "http": "*"
+    "http": "0.0.1-security"
   }
 }
